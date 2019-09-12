@@ -20,12 +20,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hounter-br`,
-        short_name: `hounter`,
+        name: `Hounter-br`,
+        short_name: `Hounter`,
         start_url: `/`,
         background_color: Colors.lighter,
         theme_color: Colors.darker,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
