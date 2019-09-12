@@ -134,8 +134,8 @@ const IndexPage = () => {
           </InputContainer>
 
           <HoursResult>
-            Média de {averageHours.current || 0} horas/dia. Total de{" "}
-            {totalHours.current || 0} horas/mês.
+            Média de <strong>{averageHours.current || 0}</strong> horas/dia.
+            Total de <strong>{totalHours.current || 0}</strong> horas/mês.
           </HoursResult>
 
           <InputContainer>

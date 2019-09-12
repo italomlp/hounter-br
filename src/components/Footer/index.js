@@ -1,12 +1,23 @@
 import React from "react"
+import { FaGithub } from "react-icons/fa"
 
-import { Container } from "./styles"
+import { Container, Content, IconContainer } from "./styles"
 
 const Footer = () => (
   <Container>
-    <label>© {new Date().getFullYear()}, Feito por</label>
-    {` `}
-    <a href="https://www.italomlp.com">Italo Menezes</a>
+    <Content>
+      <label>© {new Date().getFullYear()}, Feito por</label>
+      {` `}
+      <a target="blank" href="https://www.italomlp.com">
+        Italo Menezes
+      </a>
+    </Content>
+    <IconContainer>
+      <a target="blank" href="https://github.com/italomlp/hounter-br">
+        <FaGithub />
+        <label>Ir para o repositório</label>
+      </a>
+    </IconContainer>
   </Container>
 )
 

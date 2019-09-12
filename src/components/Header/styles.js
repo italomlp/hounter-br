@@ -13,6 +13,7 @@ export const Container = styled.header`
   align-items: center;
   box-shadow: 0 0 5px ${Colors.darker};
   margin-bottom: 30px;
+  position: relative;
 `
 
 export const Logo = styled(Link)`
@@ -41,4 +42,29 @@ export const LogoFrame = styled.div`
   height: 50px;
   max-height: 50px;
   border: 2px solid #fff;
+`
+
+export const IconContainer = styled.div`
+  @media (min-width: 769px) {
+    display: block;
+  }
+
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 30px;
+
+  a {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 3px #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
 `

@@ -1,12 +1,16 @@
 import React from "react"
 
 import { Layout, Seo } from "../components"
+import GlobalStyles from "../styles/global"
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <GlobalStyles />
+    <Seo title="404: Não encontrado" />
+    <div align="center">
+      <h1>Não encontrado</h1>
+      <label>Página não encontrada.</label>
+    </div>
   </Layout>
 )
 

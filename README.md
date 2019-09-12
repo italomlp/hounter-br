@@ -1,4 +1,6 @@
-# HOUNTER-BR
+<p align="center">
+  <img src="./logo.png" alt="logo" width="320">
+</p>
 
 O **hounter-br** é um site para calcular o número de horas trabalhadas por um
 programador PJ, seguindo a legislação trabalhista. Nasceu de uma necessidade
